@@ -1,7 +1,3 @@
-# Cloud-Computing
+# Bangkit Academy 2024 - Product-Based Capstone Team - C242-PS027
 
-
-| Fitur          | Deskripsi             |
-|-----------------|-----------------------|
-| Chatbot        | Bantuan interaktif    |
-| Risk Analysis  | Analisis risiko medis |
+## Peduli Bumil - Cloud Computing

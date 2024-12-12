@@ -35,7 +35,7 @@ Assists in proactive troubleshooting and ensuring smooth operation of the applic
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/BangkitPeduliBumil/peduli-bumil-backend.git
+   https://github.com/BangkitPeduliBumil/cloud-computing
    ```
 
 2. **Create a service account, assign the roles `Cloud Datastore User`, `Cloud Run Invoker`, and `Storage Object Admin`, download the `key.json`, and place it into the folder**

@@ -31,5 +31,52 @@ Assists in proactive troubleshooting and ensuring smooth operation of the applic
 ## API Backend
 [api Backend](https://backend-api-511713702149.asia-southeast2.run.app)
 
+## Installation Instructions API Backend
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/BangkitPeduliBumil/peduli-bumil-backend.git
+   ```
+
+2. **Create a service account, assign the roles `Cloud Datastore User`, `Cloud Run Invoker`, and `Storage Object Admin`, download the `key.json`, and place it into the folder**
+
+3. Enable API & SERVICES
+   ```bash
+    gcloud services enable run.googleapis.com
+    gcloud services enable containerregistry.googleapis.com
+    gcloud services enable cloudbuild.googleapis.com
+   ```
+
+4. **Container image and uploads it to Google Container Registry with the tag:**
+   ```bash
+      gcloud builds submit --tag gcr.io/[PROJECT_ID]/[containername]
+   ```
+
+4. **Deploy to Cloud Run**
+   ```bash
+     gcloud run deploy [containername]\
+    --image gcr.io/[PROJECT_ID]/ [containername]\
+    --platform managed \
+    --region [REGION] \
+    --allow-unauthenticated
+    --memory 1Gi [OPSIONAL]
+   ```
+
+## Testing the API
+
+```bash
+https://documenter.getpostman.com/view/39629700/2sAYBd7oEU
+```
+
+### Example Endpoints
+
+- **Predict Pregnancy Risk**
+  - `POST /predict`
+  - Input: Age, Body, Systolic Blood Pressure, Diastolic Blood Pressure, BMI, Blood Glucose.
+
+
+## Chatbot
+[Chatbot](pedulibumil-2792a.et.r.appspot.com)
+
 ## 🏛️ Build Architecture 
 ![](https://github.com/BangkitPeduliBumil/asset/blob/227452df435927ac67084e737a7fbe4140a2b851/architecture.png)

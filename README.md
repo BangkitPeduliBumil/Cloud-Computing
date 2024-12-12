@@ -80,3 +80,11 @@ https://documenter.getpostman.com/view/39629700/2sAYBd7oEU
 
 ## 🏛️ Build Architecture 
 ![](https://github.com/BangkitPeduliBumil/asset/blob/227452df435927ac67084e737a7fbe4140a2b851/architecture.png)
+
+
+## 🧑‍🤝‍🧑 Cloud Computing Team
+
+|  No. | Member                          | Student ID   | Learning Path        | GitHub            |
+|------|---------------------------------|--------------|----------------------|-------------------|
+|   1  | Sarhan Pratama                  | C265B4KY4071 | :cloud: Cloud Computing      | [![GitHub](https://img.shields.io/badge/-GitHub-brightgreen?logo=github&logoColor=white)](https://github.com/SarhanPratama) |
+|   2  | Muhammad Fadhil                 | C308B4KY2797 | :cloud: Cloud Computing      | [![GitHub](https://img.shields.io/badge/-GitHub-brightgreen?logo=github&logoColor=white)](https://github.com/Dedeuuw) |
